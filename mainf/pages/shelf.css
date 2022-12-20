@@ -1,0 +1,45 @@
+body{
+    scroll-snap-type:none
+}
+
+.container-shelf{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 55vw;
+    top: 10vw;
+}
+
+.section-shelf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-shelf h1{
+    padding-bottom: 5vw;
+    font-size: 2.5vw;
+}
+
+.shelf-p h2{
+    font-size: 3vw;
+    color:#f1554c;
+}
+
+.shelf-p p{
+    font-size: 1.7vw;
+    color:#0b2361;
+}
+
+.shelf-p{
+    border-bottom-color: black;
+    border-bottom: solid;
+    border-width: thin;
+    margin-bottom: 3vw;
+}
+
+#bmm{
+    border: none;
+}
