@@ -37,9 +37,9 @@ function navHighlighter() {
 };
 
 document.getElementById("workk").onclick = function () {
-  window.location.href = "/SF/pages/work.html";
+  window.location.href = "work.html";
 };
 
 document.getElementById("smth").onclick = function () {
-  window.location.href = "/SF/pages/shelf.html";
+  window.location.href = "shelf.html";
 };
