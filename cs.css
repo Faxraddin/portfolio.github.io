@@ -47,7 +47,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -6.6vw;
 }
 
 .top {
@@ -941,29 +940,56 @@ section{
     }
 
     .section-top{
-        height: 930px;
+        height: 900px;
         overflow: hidden;
     }
 
-    .my-img{
-        position: relative;
-        top: 450px;
-        left: -93vw;
-        width: 300px;
-        background-color: #f1554c;
-
-        padding-left: 50%;
-        padding-right: 50%;
-        padding-top: 50px;
-        padding-bottom: 50px;
+    .first-info{
+        align-items: center;
+        flex-direction: column;
     }
 
-    .first-sec{
-        left: 90px;
+    .a1{
+        position: absolute;
+        top: 100px;
+        align-items: center;
+    }
+
+    .mc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        width: 111vw;
+        background-color: #f1554c;
+        position: absolute;
+        padding-bottom: 30px;
+        top: 535px;
+    }
+
+    .my-img{
+        width: 250px;
     }
 
     .some-info{
-        left: 100px;
+        width: 100%;
+        top:0px;
+        left: 0;
+        right: 0;
+        margin-left: 12vw;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+    }
+
+    .a1{
+        width: 80%;
+        margin: 0;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
     }
 
     .top h2{
@@ -998,15 +1024,42 @@ section{
     }
 
     .first-sec h3{
-        font-size: 20px;
-        width: 400px;
+        font-size: 3.3vw;
+        width: 70%;
+    }
+
+    .first-sec{
+        width: 57vw;
     }
 
     .a1 span{
         font-size: 10px;
+        width: 35%;
+        margin: 0;
     }
 
-    .some-info{
-        top: -50px;
+    .details{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .what-doing p{
+        width: 80%;
+    }
+}
+
+@media(max-width:500px) {
+    .a1{
+        flex-direction: column;
+    }
+
+    .first-sec h1{
+        font-size: 10vw;
+    }
+
+    .a1 span{
+        width: 40%;
+        padding-top: 20px;
+        font-size: 2.5vw;
     }
 }
