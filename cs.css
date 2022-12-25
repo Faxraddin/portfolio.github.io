@@ -843,6 +843,14 @@ section{
         height: 860px;
     }
 
+    .p1 a{
+        font-size: 5vw;
+    }
+
+    .p2 a{
+        font-size: 5vw;
+    }
+
     .what-done{
         flex-direction: column;
         width: 90%;
@@ -949,12 +957,6 @@ section{
         flex-direction: column;
     }
 
-    .a1{
-        position: absolute;
-        top: 100px;
-        align-items: center;
-    }
-
     .mc{
         display: flex;
         align-items: center;
@@ -969,27 +971,15 @@ section{
 
     .my-img{
         width: 250px;
+        margin-left: 25px;
     }
 
     .some-info{
-        width: 100%;
-        top:0px;
-        left: 0;
-        right: 0;
-        margin-left: 12vw;
-        margin: 0;
-        align-items: center;
-        justify-content: center;
-        margin-left: 30px;
-    }
 
-    .a1{
-        width: 80%;
-        margin: 0;
-        height: 100%;
-        align-items: center;
-        justify-content: center;
-        margin-right: 0;
+        margin: auto;
+        left: 15vw;
+        right: 0;
+        bottom: 0;
     }
 
     .top h2{
@@ -1033,7 +1023,7 @@ section{
     }
 
     .a1 span{
-        font-size: 10px;
+        font-size: 2vw;
         width: 35%;
         margin: 0;
     }
@@ -1049,17 +1039,35 @@ section{
 }
 
 @media(max-width:500px) {
-    .a1{
-        flex-direction: column;
-    }
-
     .first-sec h1{
         font-size: 10vw;
+    }
+
+    .top h2{
+        font-size: 20px;
+        margin-top: 20px;
     }
 
     .a1 span{
         width: 45%;
         padding-top: 20px;
-        font-size: 2.5vw;
+    }
+
+    .section-top{
+        height: 880px;
+    }
+
+    .mc{
+        top: 520px;
+    }
+}
+
+@media(max-width:350px) {
+    .section-top{
+        height: 800px;
+    }
+
+    .mc{
+        top: 440px;
     }
 }
