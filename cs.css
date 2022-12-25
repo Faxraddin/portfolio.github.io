@@ -899,7 +899,7 @@ section{
     }
 
     .send-top h1{
-        font-size:33px;
+        font-size:6vw;
         text-align: left;
     }
 
@@ -908,12 +908,12 @@ section{
     }
     
     .send-top p{
-        font-size: 19px;
+        font-size: 3vw;
         text-align: left;
     }
     
     .send-inputs label{
-        font-size: 12px;
+        font-size: 2vw;
     }
 
     .send-final{
@@ -921,17 +921,17 @@ section{
     }
     
     .send-final input{
-        font-size: 14px;
+        font-size: 2.2vw;
     }
     
     .shoot{
         margin-top: 25px;
-        width: 222px;
+        width: 45vw;
         text-align: center;
         position: relative;
-        left: -16vw;
+
         height: 40px;
-        font-size: 12px;
+        font-size: 2vw;
         padding: 2.3vw 5vw 2.3vw 5vw;
     }
 
@@ -1058,7 +1058,7 @@ section{
     }
 
     .a1 span{
-        width: 40%;
+        width: 45%;
         padding-top: 20px;
         font-size: 2.5vw;
     }
